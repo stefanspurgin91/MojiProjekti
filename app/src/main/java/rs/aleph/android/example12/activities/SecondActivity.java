@@ -17,6 +17,7 @@ public class SecondActivity extends Activity {
         super.onCreate(savedInstanceState);
         // setContentView method draws UI
         setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_third);
 
         // Shows a toast message (a pop-up message)
         Toast toast = Toast.makeText(getBaseContext(), "Activity.onCreate()", Toast.LENGTH_SHORT);
